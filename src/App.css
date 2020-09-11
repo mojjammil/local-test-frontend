@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    max-width: 100%;
+    background-color: #47596e;
+}
+
+
+body,
+input,
+button {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-size: 0.9em;
+}
+
+.container {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.container p {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.content input {
+    width: 100%;
+}
+
+.container label {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: #908F9B;
+    margin-top: 5%;
+    border-radius: 0.5em;
+    padding: 5%;
+}
+
+.content h2 {
+    color: #ffffff;
+}
+
+.content > p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.content button {
+    border-radius: 0.2em;
+    border: 0;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    height: 2.5em;
+    width: 100%;
+}
+
+
+.content button.submit-btn {
+    background: #f05a5b;
+}
+
+.content button.submit-btn:hover {
+    background: #e14f50;
+}
+
+.content button.secondary-btn {
+    background: #337ab7;
+}
+
+.content button.secondary-btn:hover {
+    background: #286090;
+}
+
+/* .content div.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+} */
+
+.container > .event-validation {
+    padding: 1em 2em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+.navbar-toggler {
+    text-align: left;
+}
